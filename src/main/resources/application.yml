@@ -14,8 +14,13 @@ retrofit:
   # identity: current available
   # baseUrl: the base part of business system url, would be changed by nginx location, "/" is not required to be the end of url
   endpoints:
-  - identity: crm-api
-    baseUrl: https://crm.testing.pipacoding.com/
+  - identity: crm-classcenter
+    baseUrl: https://crm.pipacoding.com/
+  - identity: crm-audit
+    baseUrl: http://10.122.170.101:80/
+  - identity: order-center
+    baseUrl: https://crm.pipacoding.com/
+
   log:
     enabled: true
     content: BASIC # NONE, BASIC, HEADERS, BODY
