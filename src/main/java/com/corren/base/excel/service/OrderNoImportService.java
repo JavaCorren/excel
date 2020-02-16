@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 public class OrderNoImportService {
 
-    private static final String DIR_PATH = "/home/zhangguorui/data/";
+    private static final String DIR_PATH = "/home/zhangguorui/data1/";
     private static final String WRITE_FILE_NAME_SUFFIX = "-processed";
     private static final String FILE_SUFFIX = ".xlsx";
 

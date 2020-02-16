@@ -1,3 +1,5 @@
+server:
+  port: 8081
 
 operator:
   userId: 30000141
@@ -25,3 +27,4 @@ retrofit:
     enabled: true
     content: BASIC # NONE, BASIC, HEADERS, BODY
     level: INFO
+
