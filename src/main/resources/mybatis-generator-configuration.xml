@@ -35,7 +35,7 @@
 
          <!--jdbc连接-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-        connectionURL="jdbc:mysql://mariadb.testing.pipacoding.com:3306/crm?characterEncoding=utf8"
+        connectionURL="jdbc:mysql://dev2.bjo.hetao101.com:3306/crm?characterEncoding=utf8"
         userId="root" password="yunwei@998"/>
 
         <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->

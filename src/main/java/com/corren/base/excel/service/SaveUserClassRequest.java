@@ -1,6 +1,6 @@
 package com.corren.base.excel.service;
 
-import com.corren.base.excel.User;
+
 import lombok.Data;
 
 import java.util.List;
@@ -13,6 +13,5 @@ import java.util.List;
 @Data
 public class SaveUserClassRequest {
 
-    private List<User> users;
     private Integer businessType;
 }
